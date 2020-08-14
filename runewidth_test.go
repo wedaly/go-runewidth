@@ -164,6 +164,7 @@ var runewidthtests = []struct {
 	{'\u0300', 0, 0},
 	{'\u2028', 0, 0},
 	{'\u2029', 0, 0},
+	{'a', 1, 1}, // ASCII classified as "na" (narrow)
 	{'⟦', 1, 1}, // non-ASCII classified as "na" (narrow)
 }
 
